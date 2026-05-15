@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^page1\.html$ https://Andrey2.ru/page2.html [R=301,L]
+RewriteRule ^old-page\.html$ https://Andrey2.ru/new-page.html [R=301,L]
