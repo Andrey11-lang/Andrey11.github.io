@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^robots\.txt$ - [L]
+RewriteRule ^page1\.html$ https://andrey2.ru/page1.html [R=301,L]
+RewriteRule ^page2\.html$ https://andrey2.ru/page2.html [R=301,L]
+RewriteRule ^catalog/(.*)$ https://andrey2.ru/catalog/$1 [R=301,L]
